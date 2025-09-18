@@ -9,7 +9,7 @@
 <div align="center">
     <p align="center">
         <img src="docs/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
-        <img src="docs/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
+        <img src="docs/fitdnu_logo.png" alt="FITDNU Logo" width="180"/>
         <img src="docs/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
     </p>
 
@@ -19,17 +19,41 @@
 
 </div>
 
+---
+
 ## 📖 1. Giới thiệu
-Học phần trang bị cho người học những kiến thức nền tảng của lập trình mạng và các kỹ năng cần thiết để thiết kế và cài đặt các ứng dụng mạng và các chuẩn ở mức ứng dụng dựa trên mô hình Client/Server, có sử dụng các giao tiếp chương trình dựa trên Sockets. Kết thúc học phần, sinh viên có thể viết các chương trình ứng dụng mạng với giao thức tầng ứng dụng tự thiết kế.
-
-## 🔧 2. Ngôn ngữ lập trình sử dụng: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
-
-## 🚀 3. Các project đã thực hiện
-
-### [Khoá 16](./docs/projects/K16/README.md)
-
-## 📝 4. License
-
-© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
+Đề tài môn Lập trình mạng: **Chat Room sử dụng UDP Multicast**.  
+Ứng dụng cho phép nhiều người dùng tham gia cùng một phòng trò chuyện thông qua cơ chế multicast, đồng thời hỗ trợ mở rộng nhiều tính năng nâng cao như quản lý nickname, gửi tin riêng, quản lý nhiều phòng.
 
 ---
+
+## 🔧 2. Ngôn ngữ lập trình sử dụng
+[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
+
+---
+
+## 🚀 3. Chức năng
+
+### ⚡ Cơ bản
+- **Join group** – Tham gia phòng chat.  
+- **Leave group** – Thoát khỏi phòng chat.  
+- **Send message** – Gửi tin nhắn đến phòng.  
+- **Receive message** – Nhận tin nhắn từ phòng.  
+- **Hiển thị thông tin tin nhắn** – Gồm: tên người gửi, thời gian, nội dung.  
+
+### 🌟 Mở rộng
+- **Nickname** – Mỗi user có tên riêng.  
+- **Join/Leave notification** – Thông báo khi ai đó vào/ra phòng.  
+- **Private message** – Gửi tin nhắn riêng trực tiếp đến một client (unicast).  
+- **Chat log** – Lưu lịch sử chat (file hoặc server).  
+- **Multimedia message** – Gửi file/hình ảnh (chia nhỏ gói tin).  
+- **Danh sách user online** – Hiển thị ai đang trong phòng.  
+- **Trạng thái online/offline** – User online có chấm xanh, offline có chấm xám.  
+- **Multiple rooms** – Hỗ trợ nhiều phòng chat, mỗi phòng có địa chỉ multicast riêng.  
+- **Server quản lý (tùy chọn)** – Ghi log, quản lý user, phát lại lịch sử cho client mới.  
+
+---
+
+## 📂 4. Cấu trúc thư mục (dự kiến)
+
+
