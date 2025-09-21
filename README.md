@@ -70,24 +70,7 @@ Hệ thống được xây dựng nhằm giúp sinh viên hiểu và thực hàn
 
 ---
 
-## 📂 4. Cấu trúc thư mục (dự kiến)
-
-ChatRoomUDPMulticast/
-│── src/
-│ ├── udp.client/
-│ │ ├── ChatClient.java
-│ │ ├── ChatClientGUI.java
-│ ├── udp.config/
-│ │ └── MulticastConfig.java
-│ ├── udp.message/
-│ │ ├── Message.java
-│ │ └── MessageSerializer.java
-│ └── udp.server/
-│ └── ChatServer.java
-
----
-
-## 🖼️ 5. Một số hình ảnh giao diện
+## 🖼️ 4. Một số hình ảnh giao diện
 
 💻 Giao diện Client:  
 ![Client GUI](docs/Client.png)  
@@ -100,7 +83,7 @@ ChatRoomUDPMulticast/
 
 ---
 
-## ⚙️ 6. Các bước cài đặt & chạy
+## ⚙️ 5. Các bước cài đặt & chạy
 
 🔧 **Bước 1. Chuẩn bị môi trường**
 - Cài đặt **JDK 8 hoặc 11**.  
@@ -114,7 +97,7 @@ ChatRoomUDPMulticast/
 
 ---
 
-## 📌 7. Ý nghĩa ứng dụng
+## 📌 6. Ý nghĩa ứng dụng
 - Rèn luyện kỹ năng sử dụng **UDP Multicast Socket**.  
 - Hiểu rõ hơn về **lập trình mạng phân tán**.  
 - Ứng dụng để phát triển **các hệ thống chat nhóm, game nhiều người chơi, truyền thông điệp trong IoT**.  
@@ -122,7 +105,7 @@ ChatRoomUDPMulticast/
 
 ---
 
-## 👨‍💻 8. Liên hệ (cá nhân)
+## 👨‍💻 7. Liên hệ (cá nhân)
 
 Contact me:  
 
