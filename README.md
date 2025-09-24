@@ -75,7 +75,7 @@ Hệ thống được xây dựng nhằm giúp sinh viên hiểu và thực hàn
 
 ---
 
-## 👨‍💻 7. Liên hệ (cá nhân)
+## 👨‍💻 5. Liên hệ (cá nhân)
 
 Contact me:  
 
