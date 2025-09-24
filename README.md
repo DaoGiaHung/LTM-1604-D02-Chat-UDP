@@ -45,7 +45,7 @@
 
 ---
 
-## 🚀 3. Chức năng hệ thống
+## 🖼️ 3. Chức năng và giao diện hệ thống
 
 ### ⚡ Chức năng cơ bản
 - **Create Room**: Tạo phòng với tên, IP multicast, port.  
@@ -65,10 +65,6 @@
 - **Chat Log**: Lưu lịch sử chat.  
 - **Server tùy chọn**: lưu log, quản lý user.  
 
----
-
-## 🖼️ 4. Giao diện hệ thống
-
 ### 💻 Giao diện Login / Join Room
 Trang nhập nickname, IP và port để tham gia phòng.  
 ![Login GUI](docs/login.png)  
@@ -83,7 +79,7 @@ Hiển thị tin nhắn, danh sách phòng, danh sách user online, chức năng
 
 ---
 
-## 📊 5. Luồng hoạt động hệ thống
+## 📊 4. Luồng hoạt động hệ thống
 
 ### 🔹 Sơ đồ luồng tin nhắn
 ```
@@ -103,22 +99,7 @@ User A ----> Multicast Group ----> User B
 
 ---
 
-## 📂 6. Cấu trúc dự án
-```
-udp-multicast-chat/
-│── docs/               # Hình ảnh, sơ đồ, tài liệu
-│── src/
-│    ├── client/        # Client side (giao diện, socket client)
-│    ├── server/        # Server side (nếu dùng)
-│    ├── utils/         # Xử lý tiện ích (packet, log, heartbeat)
-│    └── resources/     # Icon, cấu hình
-│── ChatLog/            # Lưu lịch sử chat (nếu bật)
-│── README.md
-```
-
----
-
-## ⚙️ 7. Cài đặt & chạy
+## ⚙️ 5. Cài đặt & chạy
 
 ### 🔧 Bước 1. Chuẩn bị môi trường
 - Cài đặt **JDK 8/11**.  
@@ -144,21 +125,7 @@ cd udp-multicast-chat
 
 ---
 
-## 📌 8. Ý nghĩa ứng dụng
-- Rèn luyện kỹ năng **lập trình mạng với UDP Multicast**.  
-- Hiểu cơ chế **multicast group** và **multithreading** trong Java.  
-- Ứng dụng thực tế:  
-  - Chat nhóm trong LAN.  
-  - Broadcast IoT (gửi lệnh tới nhiều thiết bị).  
-  - Game multiplayer (low-latency).  
-- Có thể nâng cấp:  
-  - **Mã hóa tin nhắn** (AES, RSA).  
-  - **TCP/WebSocket** cho truyền file ổn định.  
-  - **Web-based Chat** tích hợp trình duyệt.  
-
----
-
-## 👨‍💻 9. Liên hệ
+## 👨‍💻 6. Liên hệ
 📌 **Họ tên**: Đào Gia Hưng – CNTT K16-04  
 📌 **Khoa**: Công nghệ thông tin – Trường Đại học Đại Nam  
 📌 **Email**: daogiahung222@gmail.com  
