@@ -159,7 +159,7 @@ cd udp-multicast-chat
 ---
 
 ## 👨‍💻 9. Liên hệ
-📌 **Họ tên**: Đào Duy Hưng – CNTT K16-04  
+📌 **Họ tên**: Đào Gia Hưng – CNTT K16-04  
 📌 **Khoa**: Công nghệ thông tin – Trường Đại học Đại Nam  
 📌 **Email**: daogiahung222@gmail.com  
 
