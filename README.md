@@ -51,7 +51,7 @@ Hệ thống được xây dựng nhằm giúp sinh viên hiểu và thực hàn
 ## 🖼️ 3. Một số hình ảnh chức năng giao diện
 
 💻 Giao diện Login:  
-![Login GUI](docs/.png)  
+![Login GUI](docs/login.png)  
 
 🖥️ Giao diện Create Room (tạo phòng):  
 ![ GUI](docs/Create.png)  
