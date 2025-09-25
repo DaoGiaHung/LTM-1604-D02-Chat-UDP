@@ -45,25 +45,7 @@
 
 ---
 
-## 🖼️ 3. Chức năng và giao diện hệ thống
-
-### ⚡ Chức năng cơ bản
-- **Create Room**: Tạo phòng với tên, IP multicast, port.  
-- **Join Room**: Tham gia bằng nickname, thông báo tới mọi người.  
-- **Leave Room**: Thoát phòng, cập nhật danh sách user online.  
-- **Send Message**: Gửi tin nhắn nhóm → tất cả user trong room nhận.  
-- **Receive Message**: Hiển thị tin nhắn thời gian thực.  
-
-### 🌟 Chức năng nâng cao
-- Nickname riêng biệt cho mỗi user.  
-- Thông báo **Join/Leave Notification**.  
-- **Private Message** (qua unicast).  
-- **Danh sách User Online** (cập nhật động bằng heartbeat).  
-- **Trạng thái Online** (danh sách người dùng online).  
-- **Multiple Rooms**: nhiều phòng song song.  
-- **Quản trị**: Kick/Mute user.  
-- **Chat Log**: Lưu lịch sử chat.  
-- **Server tùy chọn**: lưu log, quản lý user.  
+## 🖼️ 3. Hình ảnh giao diện hệ thống
 
 ### 💻 Giao diện Login / Join Room
 Trang nhập nickname, IP và port để tham gia phòng.  
@@ -79,27 +61,7 @@ Hiển thị tin nhắn, danh sách phòng, danh sách user online, chức năng
 
 ---
 
-## 📊 4. Luồng hoạt động hệ thống
-
-### 🔹 Sơ đồ luồng tin nhắn
-```
-User A ----> Multicast Group ----> User B
-           \--> User C
-```
-
-- Khi một client gửi tin nhắn → gói UDP được phát qua địa chỉ **multicast IP**.  
-- Tất cả client đã **join group** sẽ nhận tin.  
-
-### 🔹 Mô hình Client–Server (tùy chọn)
-- **Peer-to-Peer + Multicast** cho chat nhóm.  
-- **Unicast** cho private message.  
-- **Server** (tùy chọn): lưu log, quản lý user.  
-
-![Flowchart](docs/main.jpg)  
-
----
-
-## ⚙️ 5. Cài đặt & chạy
+## ⚙️ 4. Cài đặt & chạy
 
 ### 🔧 Bước 1. Chuẩn bị môi trường
 - Cài đặt **JDK 8/11**.  
@@ -125,7 +87,7 @@ cd udp-multicast-chat
 
 ---
 
-## 👨‍💻 6. Liên hệ
+## 👨‍💻 5. Liên hệ
 📌 **Họ tên**: Đào Gia Hưng – CNTT K16-04  
 📌 **Khoa**: Công nghệ thông tin – Trường Đại học Đại Nam  
 📌 **Email**: daogiahung222@gmail.com  
